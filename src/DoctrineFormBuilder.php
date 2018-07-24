@@ -3,10 +3,6 @@
 namespace WebCrafters\LaravelDoctrineForm;
 
 use Collective\Html\FormBuilder;
-use Collective\Html\HtmlBuilder;
-use Illuminate\Contracts\Routing\UrlGenerator;
-use Illuminate\Contracts\View\Factory;
-use Illuminate\Http\Request;
 
 class DoctrineFormBuilder extends FormBuilder
 {

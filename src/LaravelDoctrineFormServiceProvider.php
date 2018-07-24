@@ -2,15 +2,14 @@
 
 namespace WebCrafters\LaravelDoctrineForm;
 
-
 use Collective\Html\HtmlServiceProvider;
-use Illuminate\Foundation\Application;
-use Illuminate\Support\Str;
-use Illuminate\View\Compilers\BladeCompiler;
 
 class LaravelDoctrineFormServiceProvider extends HtmlServiceProvider
 {
 
+    /**
+     * Registering form builder override
+     */
     protected function registerFormBuilder()
     {
         $this->app->singleton('form', function ($app) {
