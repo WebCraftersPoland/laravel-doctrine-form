@@ -2,10 +2,6 @@
 
 namespace WebCrafters\LaravelDoctrineForm;
 
-use Collective\Html\FormBuilder;
-use Collective\Html\HtmlBuilder;
-use Collective\Html\HtmlServiceProvider;
-
 class LaravelDoctrineFormServiceProvider extends HtmlServiceProvider
 {
 
@@ -19,10 +15,5 @@ class LaravelDoctrineFormServiceProvider extends HtmlServiceProvider
 
             return $form->setSessionStore($app['session.store']);
         });
-    }
-
-    public function provides()
-    {
-        return ['html', 'form', HtmlBuilder::class, FormBuilder::class];
     }
 }
