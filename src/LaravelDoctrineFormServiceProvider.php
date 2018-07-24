@@ -2,6 +2,8 @@
 
 namespace WebCrafters\LaravelDoctrineForm;
 
+use Collective\Html\HtmlServiceProvider;
+
 class LaravelDoctrineFormServiceProvider extends HtmlServiceProvider
 {
 
