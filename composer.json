@@ -19,9 +19,6 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "5.6-dev"
-        },
         "laravel": {
             "providers": [
                 "WebCrafters\\LaravelDoctrineForm\\HtmlServiceProvider"
